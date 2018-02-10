@@ -14,13 +14,7 @@
       name: siteName,
       url: siteUrl
     }
-    /*
-      // Local Storage text
-      localStorage.setItem('test', 'Hello World');
-      console.log(localStorage.getItem('test'));
-      localStorage.removeItem('test');
-      console.log(localStorage.getItem('test'));
-    */
+  
 
     //test if bookmarks is null
     if (localStorage.getItem('bookmarks') === null) {
